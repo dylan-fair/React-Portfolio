@@ -41,11 +41,11 @@ function Portfolio() {
     ]
     return (
         <div className='projects'>
-            <h2>My Porjects</h2>
-            <ul>
+            <h2>My Projects</h2>
+            <ul className='project-list'>
                 {projects.map((current, i) => {
-                    {console.log(i)}
-                    <li>
+                    return(
+                    <li className='project'>
                         <img src={require(`../../assets/project-images/0${i}.jpg`)}/>
                         <div className='text-inside'>{current.title}</div>
                         <div className='behind'>
@@ -54,7 +54,7 @@ function Portfolio() {
                             <a className='link' href={current.github} target='_blank'>Visit Repo</a>
                         </div>
                     </li>
-                })}
+                )})}
             </ul>
         </div>
     )
