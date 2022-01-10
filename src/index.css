@@ -63,3 +63,45 @@ header img:hover {
   color: white;
   margin: 10px 40px 10px 40px;
 }
+.contact {
+  display: flex;;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--blue);
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 45px;
+}
+.contact label {
+  color: white;
+  font-size: 25px;
+}
+.contact div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-betweens;
+}
+.contact button {
+  display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+  font-family: sans-serif;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  background-color: greenyellow;
+  font-size: 20px;
+}
+.contact p {
+  color: white;
+  font-size: 20px;
+}
