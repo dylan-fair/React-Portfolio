@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import logo from '../../assets/ran-images/Logo.png'
 function Nav(props) {
     const {

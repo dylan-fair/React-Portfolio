@@ -46,12 +46,12 @@ function Portfolio() {
                 {projects.map((current, i) => {
                     return(
                     <li className='project'>
-                        <img src={require(`../../assets/project-images/0${i}.jpg`)}/>
+                        <img src={require(`../../assets/project-images/0${i}.jpg`)} alt='Screenshot of webpage' />
                         <div className='text-inside'>{current.title}</div>
                         <div className='behind'>
                             <div className='behind-text'>{current.descript}</div>
-                            <a className='link' href={current.link} target='_blank'>Visit Website</a>
-                            <a className='link' href={current.github} target='_blank'>Visit Repo</a>
+                            <a className='link' href={current.link} target='_blank' ref='noreferrer'>Visit Website</a>
+                            <a className='link' href={current.github} target='_blank' rel='noreferrer'>Visit Repo</a>
                         </div>
                     </li>
                 )})}
