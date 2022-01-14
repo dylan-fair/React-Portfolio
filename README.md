@@ -38,7 +38,7 @@ React/jest
 ## Questions
 [Link to my GitHub for further questions!](https://github.com/dylan-fair/React-Portfolio)
 [My Email for further question!](dylanfair11@gmail.com)
-![alt text]('src/utils/screenshot.jpg')
+![alt text](screenshot.jpg)
 
     
     
